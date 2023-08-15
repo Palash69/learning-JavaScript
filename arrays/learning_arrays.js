@@ -3,6 +3,11 @@
 const myArr = [0, 1, 2, 3, 4, 5];
 // console.log(myArr);
 
+// console.log("A with plus " + myArr);
+// console.log("A with plus " + JSON.stringify(myArr));
+// console.log("B with comma ", myArr);
+
+
 
 // console.log(myArr[0]);
 
@@ -55,14 +60,14 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 // does not make any changes to the orignal array
 // TODO?? deep copy?
 
-console.log("Array:  ", myArr2);
+// console.log("Array:  ", myArr2);
 
 
-const myNewArr_1 = myArr2.slice(1, 3); //answer - 2,3
+// const myNewArr_1 = myArr2.slice(1, 3); //answer - 2,3
 
-console.log("slice:  ", myNewArr_1);
+// console.log("slice:  ", myNewArr_1);
 
-console.log("Array after slice: ", myArr2);
+// console.log("Array after slice: ", myArr2);
 
 
 //  TODO: splice - what ever number we are providing for splicing it is the index number, 
@@ -70,10 +75,23 @@ console.log("Array after slice: ", myArr2);
 // remove the part from the orignal array - make change in the orignal array
 // TODO?? shallow copy?
 
-const myNewArr_2 = myArr2.splice(1, 3);
+// const myNewArr_2 = myArr2.splice(1, 3);
 
-console.log("splice:  ", myNewArr_2);
+// console.log("splice:  ", myNewArr_2);
 
-console.log("Array after splice: ", myArr2);
+// console.log("Array after splice: ", myArr2);
 
 
+// let obj = {
+//     palash: "69"
+// };
+
+// let my_Array = [1, 2, 3, obj];
+
+// let slice_Arr = my_Array.slice(1);
+
+// console.log("before: ", slice_Arr);
+
+// obj.palash = 96;
+
+// console.log("after: ", slice_Arr);
