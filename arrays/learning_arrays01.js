@@ -6,6 +6,10 @@ const dc_heros = ["Superman", "Batman", "Flash"];
 // marvel_heros.push(dc_heros);
 // console.log(marvel_heros);
 
+let a = marvel_heros.push(dc_heros);
+console.log(a);
+
+
 // console.log(marvel_heros[3][2]);
 // console.log(marvel_heros[2]);
 
