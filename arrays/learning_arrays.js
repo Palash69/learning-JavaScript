@@ -55,10 +55,11 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 
 //TODO: slice splice
 
+// const myArr2 = new Array(1, 2, 3, 4, 5);
+
 //  TODO: slice - what ever number we are providing for slicing it is the index number, 
-//slicing - {first index we provided to (last index we provided - 1)}
+//slicing - start position Inclusive, end position Exclusive
 // does not make any changes to the orignal array
-// TODO?? deep copy?
 
 // console.log("Array:  ", myArr2);
 
@@ -70,10 +71,16 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 // console.log("Array after slice: ", myArr2);
 
 
+// let users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"];
+
+// console.log(users);
+// console.log(users.slice(1, 3));
+// console.log(users);
+
+
 //  TODO: splice - what ever number we are providing for splicing it is the index number, 
-//splicing - {first index we provided to (last index we provided)}
-// remove the part from the orignal array - make change in the orignal array
-// TODO?? shallow copy?
+//splicing - start position Inclusive, range or count
+// remove the elements from the orignal array - make change in the orignal array
 
 // const myNewArr_2 = myArr2.splice(1, 3);
 
@@ -82,6 +89,14 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 // console.log("Array after splice: ", myArr2);
 
 
+// let users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"];
+
+// console.log(users);
+// console.log(users.splice(1, 2, "Palash")); // starting position, range of count, pass as many values you want 
+// console.log(users);
+
+
+//test
 // let obj = {
 //     palash: "69"
 // };
