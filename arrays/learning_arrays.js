@@ -3,8 +3,9 @@
 const myArr = [0, 1, 2, 3, 4, 5];
 // console.log(myArr);
 
-console.log("A with plus " + myArr);
-console.log("B with comma ", myArr);
+// console.log("A with plus " + myArr);
+// console.log("A with plus " + JSON.stringify(myArr));
+// console.log("B with comma ", myArr);
 
 
 
@@ -81,3 +82,16 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 // console.log("Array after splice: ", myArr2);
 
 
+// let obj = {
+//     palash: "69"
+// };
+
+// let my_Array = [1, 2, 3, obj];
+
+// let slice_Arr = my_Array.slice(1);
+
+// console.log("before: ", slice_Arr);
+
+// obj.palash = 96;
+
+// console.log("after: ", slice_Arr);

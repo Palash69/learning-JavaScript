@@ -6,9 +6,6 @@ const dc_heros = ["Superman", "Batman", "Flash"];
 // marvel_heros.push(dc_heros);
 // console.log(marvel_heros);
 
-let a = marvel_heros.push(dc_heros);
-console.log(a);
-
 
 // console.log(marvel_heros[3][2]);
 // console.log(marvel_heros[2]);
@@ -53,5 +50,13 @@ console.log(a);
 
 //TODO: make array wioth key and values
 
+// let uids = {
+//     uid_1: 123,
+//     uid_2: 123,
+//     uid_3: 123
+// };
 
+// console.log("Array of keys: ", Object.keys(uids));
+// console.log("Array of values: ", Object.values(uids));
+// console.log("Array of entries: ", Object.entries(uids));
 
