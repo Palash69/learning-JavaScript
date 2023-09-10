@@ -12,7 +12,7 @@ function sumOne(a, b) {
 }
 
 myArr = [1, 1],
-console.log(sumOne(...myArr)); //TODO: Spred Operator - takes a set of values and spred them as individual values
+console.log(sumOne(...myArr)); //TODO: Spread Operator - takes a set of values and spread them as individual values
 
 
 //TODO: Rest operator - converts individual values in to array - here if we want to use n number of values it'll process that as well
