@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class LinkedList{
+            constructor(data) {
+                this.head = {
+                    value: data,
+                    next: null,
+                };
+            
+            }
+            appendNode(nodeData, nodeData1) {
+                let newNode = {
+                    value: nodeData,
+                    next: newNode01 = {value: nodeData1, next: null},
+                }
+                this.head.next = newNode;
+                
+            }
+        }
+        
+        let linkList = new LinkedList(100);
+        linkList.appendNode(200);
+        linkList.appendNode(300);
+        linkList.appendNode(400);
+        console.log(linkList);
+        
+        
+    </script>
+</body>
+</html>
